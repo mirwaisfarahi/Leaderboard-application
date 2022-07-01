@@ -21,13 +21,11 @@ h3 {
 
 #container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-around;
 }
 
 #list-score {
-  width: 45%;
+  min-width: 45%;
 }
 
 #list-header {
@@ -63,12 +61,12 @@ h3 {
   flex-direction: column;
 }
 
-#score-form {
+#form {
   display: flex;
   flex-direction: column;
 }
 
-#score-form > input {
+#form > input {
   padding: 5px;
   margin-bottom: 10px;
   border: 2px solid #000;
