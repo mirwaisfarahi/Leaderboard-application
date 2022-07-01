@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Leaderboard</title>
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 
@@ -21,21 +20,14 @@
             </div>
             <div>
                 <ul id="list">
-                    <li>Name: 100</li>
-                    <li>Name: 120</li>
-                    <li>Name: 25</li>
-                    <li>Name: 80</li>
-                    <li>Name: 10</li>
-                    <li>Name: 150</li>
-                    <li>Name: 38</li>
                 </ul>
             </div>
         </section>
         <section id="add-score">
             <h3>Add your score</h3>
-            <form id="score-form">
-                <input type="text" placeholder="Your name">
-                <input type="text" placeholder="Your score">
+            <form id="form">
+                <input type="text" id="user_name" placeholder="Your name">
+                <input type="text" id="user_score" placeholder="Your score">
                 <button type="submit" id="add">Submit</button>
             </form>
         </section>
