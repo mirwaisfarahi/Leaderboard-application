@@ -31,7 +31,7 @@ form.addEventListener('submit', (e) => {
 const renderData = (items) => {
   scoresList.innerHTML = '';
   items.forEach((item) => {
-    scoresList.innerHTML += `<li>${item.user}:${item.score}</li>`;
+    scoresList.innerHTML += `<li>${item.user} : ${item.score}</li>`;
   });
 };
 
